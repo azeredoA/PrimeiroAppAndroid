@@ -8,6 +8,46 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.imnotvirus.meuprimeiroapp.OutraTelaActivity">
+    tools:context="com.example.imnotvirus.meuprimeiroapp.ContaPassosActivity">
+
+    <Button
+        android:text="@string/ContaPassos_action_configurar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/ContaPassos_txt_configurar" />
+
+    <TextView
+        android:text="@string/ContaPassos_txt_topo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ContaPassos_txt_topo"
+        android:layout_marginBottom="32dp"
+        android:layout_above="@+id/ContaPassos_txt_contador"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="@string/ContaPassos_number_contador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ContaPassos_txt_contador"
+        android:textSize="72sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:text="@string/ContaPassos_action_zerar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ContaPassos_btn_zerar"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/ContaPassos_txt_contador"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -1,6 +1,5 @@
 package com.example.imnotvirus.meuprimeiroapp;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -80,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         if (view == btnOutraTela){
-            Intent i = new Intent(this, OutraTelaActivity.class);
+            Intent i = new Intent(this, ContaPassosActivity.class);
             startActivity(i);
         }
 
