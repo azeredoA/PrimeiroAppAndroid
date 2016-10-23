@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if (view == btnFullScreen){
             Intent i = new Intent(this, FullscreenActivity.class);
+            startActivity(i);
         }
 
     }
