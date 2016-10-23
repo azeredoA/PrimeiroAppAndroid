@@ -17,11 +17,12 @@
 
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_content">LUIZ \nCLAUDIO</string>
 
 
     <string name="ContaPassos_txt_topo">Passos</string>
-    <string name="ContaPassos_action_zerar">Zerar</string>
-    <string name="ContaPassos_action_configurar">Configurar</string>
+    <string name="ContaPassos_action_aumentar">aumentar</string>
+    <string name="ContaPassos_action_diminuir">diminuir</string>
     <string name="ContaPassos_number_contador">00</string>
+    <string name="ContaPassos_action_zerar">zerar</string>
 </resources>
